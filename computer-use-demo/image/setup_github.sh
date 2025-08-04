@@ -29,21 +29,36 @@ fi
 REPO_DIR="$HOME/claude-computer"
 if [ ! -d "$REPO_DIR" ]; then
     echo "📂 Cloning repository..."
-    if [ ! -z "$GITHUB_TOKEN" ]; then
-        # Use authenticated clone
-        gh repo clone claude-code-fun/claude-computer "$REPO_DIR"
-    else
-        # Use public clone
-        git clone https://github.com/claude-code-fun/claude-computer.git "$REPO_DIR"
-    fi
+    # Always use public clone first, then set up auth if token exists
+    git clone https://github.com/claude-code-fun/claude-computer.git "$REPO_DIR" || {
+        echo "❌ Failed to clone repository!"
+        echo "Attempting alternative clone method..."
+        mkdir -p "$REPO_DIR"
+        cd "$REPO_DIR"
+        git init
+        git remote add origin https://github.com/claude-code-fun/claude-computer.git
+        git fetch origin
+        git checkout -b main origin/main
+    }
+    
     cd "$REPO_DIR"
-    git remote set-url origin https://github.com/claude-code-fun/claude-computer.git
+    
+    # Set up authentication if token exists
+    if [ ! -z "$GITHUB_TOKEN" ]; then
+        git remote set-url origin "https://${GITHUB_TOKEN}@github.com/claude-code-fun/claude-computer.git"
+    fi
 else
     echo "✅ Repository already exists at $REPO_DIR"
     cd "$REPO_DIR"
     # Update to latest
-    git fetch origin
-    git pull origin main || true
+    git fetch origin || echo "Warning: Could not fetch from origin"
+    git pull origin main || echo "Warning: Could not pull latest changes"
+fi
+
+# Verify the clone worked
+if [ ! -f "$REPO_DIR/README.md" ]; then
+    echo "❌ ERROR: Repository clone failed - README.md not found!"
+    echo "Manual clone required: git clone https://github.com/claude-code-fun/claude-computer.git ~/claude-computer"
 fi
 
 # Create PR-focused documentation in home directory

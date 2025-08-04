@@ -14,13 +14,15 @@ We reward contributors with $CCF tokens for their valuable contributions!
 
 | Contribution Type | Reward Range | Examples |
 |------------------|--------------|----------|
-| 🐛 Bug Fixes | 100-500 $CCF | Fixing crashes, resolving errors, patching security issues |
-| ✨ New Features | 500-2000 $CCF | New behaviors, UI components, API endpoints |
-| 📚 Documentation | 50-200 $CCF | README updates, API docs, tutorials |
-| 🎨 UI/UX | 200-1000 $CCF | Design improvements, responsive layouts, animations |
-| 🚀 Performance | 300-1500 $CCF | Speed optimizations, memory improvements, caching |
-| 🧪 Testing | 100-400 $CCF | Unit tests, integration tests, E2E tests |
-| 🌐 Translations | 100-300 $CCF | Internationalizing the application |
+| 🐛 Bug Fixes | 1,000-5,000 $CCF | Fixing crashes, resolving errors, patching security issues |
+| ✨ New Features | 5,000-20,000 $CCF | New behaviors, UI components, API endpoints |
+| 📚 Documentation | 500-2,000 $CCF | README updates, API docs, tutorials |
+| 🎨 UI/UX | 2,000-10,000 $CCF | Design improvements, responsive layouts, animations |
+| 🚀 Performance | 3,000-15,000 $CCF | Speed optimizations, memory improvements, caching |
+| 🧪 Testing | 1,000-4,000 $CCF | Unit tests, integration tests, E2E tests |
+| 🌐 Translations | 1,000-3,000 $CCF | Internationalizing the application |
+
+*Rewards subject to change based on $CCF token price*
 
 ### How to Claim Rewards
 1. Make your contribution via pull request

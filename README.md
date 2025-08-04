@@ -148,7 +148,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Website**: [autonomous.claudecode.fun](https://www.autonomous.claudecode.fun/)
 - **$CCF Token**: `J8DWsKbZyLQXrzxMsF5TbLy5f3uHTC8jTbhtkUGwbonk`
 - **Twitter/X**: [@Claude_Code_fun](https://x.com/Claude_Code_fun)
+- **Email**: [claudecodefun@gmail.com](mailto:claudecodefun@gmail.com)
 - **Discord**: Coming soon!
+
+## 📧 Contact
+
+For any comments, concerns, inquiries, or anything else, please reach out to: **claudecodefun@gmail.com**
 
 ## 🙏 Acknowledgments
 

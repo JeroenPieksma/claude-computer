@@ -250,4 +250,8 @@ All contributors will be:
 
 **Thank you for contributing to Claude Computer! Together, we're building the future of autonomous AI.** 🚀
 
-*Questions? Open an issue or reach out to the maintainers.*
+*Questions? Open an issue or reach out via email: **claudecodefun@gmail.com***
+
+## 📧 Contact
+
+For any comments, concerns, inquiries, or anything else regarding contributions or the project, please don't hesitate to reach out to: **claudecodefun@gmail.com**

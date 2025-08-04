@@ -119,6 +119,9 @@ We welcome contributions from developers worldwide! Please see our [Contributing
 - $CCF token reward details
 - Priority areas for contribution
 
+### 💰 Bounties Available!
+Check our [Bounties Board](BOUNTIES.md) for specific tasks with guaranteed $CCF rewards. Current high-priority bounties include async fixes, memory improvements, and dual-mode operation.
+
 ## 📋 Current Priorities
 
 - [ ] Fix various bugs and stability issues

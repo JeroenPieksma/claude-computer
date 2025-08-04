@@ -26,11 +26,11 @@ We believe in rewarding our contributors! Active contributors can earn **$CCF to
 - **How to Earn**: See [CONTRIBUTING.md](CONTRIBUTING.md) for details on earning $CCF
 
 ### Reward Categories:
-- 🐛 **Bug Fixes**: 1,000-5,000 $CCF
-- ✨ **New Features**: 5,000-20,000 $CCF
-- 📚 **Documentation**: 500-2,000 $CCF
-- 🎨 **UI/UX Improvements**: 2,000-10,000 $CCF
-- 🚀 **Performance Optimizations**: 3,000-15,000 $CCF
+- 🐛 **Bug Fixes**: 20,000-100,000 $CCF
+- ✨ **New Features**: 100,000-400,000 $CCF
+- 📚 **Documentation**: 10,000-40,000 $CCF
+- 🎨 **UI/UX Improvements**: 40,000-200,000 $CCF
+- 🚀 **Performance Optimizations**: 60,000-300,000 $CCF
 
 *Rewards subject to change based on $CCF token price*
 

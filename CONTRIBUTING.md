@@ -206,9 +206,9 @@ npm run test:e2e
 
 ### Communication Channels
 - **GitHub Issues**: Bug reports and feature requests
-- **GitHub Discussions**: General discussions and Q&A
+- **GitHub Discussions**: [Join community discussions](https://github.com/claude-code-fun/claude-computer/discussions)
+- **Twitter/X**: [@Claude_Code_fun](https://x.com/Claude_Code_fun)
 - **Discord**: Coming soon!
-- **Twitter**: Coming soon!
 
 ### Code of Conduct
 Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.

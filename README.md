@@ -152,6 +152,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **$CCF Token**: `J8DWsKbZyLQXrzxMsF5TbLy5f3uHTC8jTbhtkUGwbonk`
 - **Twitter/X**: [@Claude_Code_fun](https://x.com/Claude_Code_fun)
 - **Email**: [claudecodefun@gmail.com](mailto:claudecodefun@gmail.com)
+- **Discussions**: [Join the conversation](https://github.com/claude-code-fun/claude-computer/discussions)
 - **Discord**: Coming soon!
 
 ## 📧 Contact

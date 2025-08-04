@@ -93,6 +93,7 @@ Have an idea for a bounty? Create a [feature request](https://github.com/claude-
 ## 🤝 Need Help?
 
 - Comment on the bounty issue
+- Ask in [GitHub Discussions](https://github.com/claude-code-fun/claude-computer/discussions)
 - Join our Discord (coming soon)
 - Email: claudecodefun@gmail.com
 

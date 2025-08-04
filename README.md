@@ -119,6 +119,11 @@ We welcome contributions from developers worldwide! Please see our [Contributing
 
 ## 📋 Current Priorities
 
+- [ ] Fix various bugs and stability issues
+- [ ] Fix async issue causing container crashes from too many concurrent operations
+- [ ] Fix memory generation logic and persistence
+- [ ] Improve streaming performance and reliability
+- [ ] Enable simultaneous autonomous mode + chat/command mode
 - [ ] Enhanced memory system implementation
 - [ ] Multi-modal interaction capabilities
 - [ ] Advanced behavioral patterns

